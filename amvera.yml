@@ -3,9 +3,6 @@ meta:
   toolchain:
     name: pip
     version: 3.11
-build:
-  requirementsPath: requirements.txt
 run:
   scriptName: asyncserver.py
-  persistenceMount: /data
   containerPort: 80
